@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- The root element of the HTML document with the language set to English -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Specifies the character encoding for the document as UTF-8 (universal character set) -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ensures the page is responsive by adjusting the page's layout to match the screen width of the device.
+         The initial zoom level is set to 1, meaning no zooming is applied on page load. -->
+
+    <!-- Preconnecting to Google's font servers to speed up font loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Importing 'Poppins' font family from Google Fonts. It includes different font weights and styles. -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Adding Font Awesome for icons to use social media icons like GitHub, LinkedIn, Email, etc. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Linking external CSS file that contains styles specific to this page -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Title of the webpage which appears in the browser tab -->
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- The body of the document containing all visible content -->
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="left">           
+            <a href="/">MD. Ibrahim Mia</a>
+        </div>
+
+        <div class="right">
+            <a href="https://github.com/ibrahiMwp-admin" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/ibrahim-muhammad7199/" target="_blank"
+                rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+
+            <a href="mailto:mdibrahim7199@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section class="intro">
+            <div class="text">
+                <h2>Hi, I'm Ibrahim 👋</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, asperiores nam, libero eveniet animi
+                    cupiditate architecto voluptatum hic dolorum dolorem rerum aperiam esse officia minima labore
+                    eligendi. Mollitia, ipsum nobis nulla quibusdam corrupti nam itaque laudantium numquam expedita
+                    alias. Sapiente placeat blanditiis explicabo nisi atque assumenda ea, quasi cupiditate dolorem.</p>
+
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                    <a href="#testimony">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Testimony</span>
+                    </a>
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="profilepic">
+                <img src="images/ibrahim.jpg" alt="Profile Picture">
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eius deleniti nostrum repudiandae nemo
+                inventore cum consequatur magni praesentium tenetur. Culpa excepturi id, ipsa tenetur sequi delectus
+                aliquam modi temporibus.
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="images/html-logo.webp" alt="HTML logo">
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/css-logo.webp" alt="CSS logo">
+                    <span>CSS</span>
+                </div>
+
+                 <div class="cell">
+                    <img src="images/wordpress.webp" alt="WordPress logo">
+                    <span>WordPress</span>
+                </div>
+
+                 <div class="cell">
+                    <img src="images/bootstrap.webp" alt="Bootstrap logo">
+                    <span>Bootstrap</span>
+                </div>
+                
+                <div class="cell">
+                    <img src="images/javascript-logo.webp" alt="JavaScript logo">
+                    <span>JavaScript</span>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="testimony" class="testimony-section">
+            <h2>Testimony</h2>
+
+            <div class="group">
+                <div class="person-details">
+                    <img src="images/random_person.jpeg" alt="John Doe">
+                    <p>John Doe</p>
+                    <p>CEO, ABC Web Development Company.</p>
+                </div>
+
+                <div class="text">
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, velit magni numquam ab est incidunt
+                    atque soluta sunt ratione eius. Quas totam sint, commodi magnam sapiente voluptas sunt maxime ad
+                    dolore quaerat omnis vel impedit ipsam, repellat nesciunt libero cumque, amet alias nulla neque est
+                    aperiam? Asperiores, quod nesciunt? Iusto."
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+
+            <div class="text">
+                <p>If you have any questions or want to get in touch, feel free to send me a message. I would love to
+                    hear from you!</p>
+            </div>
+
+            <!-- Contact Form -->
+            <form action="mailto:mdibrahim7199@gmail.com" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Write your message here..."
+                        required></textarea>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
